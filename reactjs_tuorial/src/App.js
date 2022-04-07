@@ -2,12 +2,34 @@ import logo from './logo.svg';
 import './App.css';
 import Name,{AName} from './Basics/FunctionComp';
 import CName from './Basics/ClassComp';
+import Counter from './Basics/Counter';
+import ParentComp from './Basics/Method as props/ParentComp';
+import Clickme from './Basics/Clickme';
 function App() {
   return (
     <div className="App">
-     <Name name="Niharika"/>
+
+      {/* component types */}
+     
+     {/* <Name name="Niharika"/>
      <AName name="niharika"/>
-     <CName/>
+     <CName/> */}
+
+     {/* setState */}
+     {/* <Counter/> */}
+
+     {/* method as props */}
+     {/* <ParentComp/> */}
+
+{/* List rendering and conditional rendering */}
+    <Clickme/>
+
+
+
+
+
+
+     
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

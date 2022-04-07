@@ -12,12 +12,12 @@ const style={
 // }
 
 
-// 2.normal function with props
+// 2.normal function with props i.e destructuring in parameter
 
 // export default function Name({name}){ return(<h1>My {name}</h1>) }
 
 
-// 3.normal function with props and const
+// 3.normal function with props and destructring in body
 
 export default function Name(props){
     const {name}=props

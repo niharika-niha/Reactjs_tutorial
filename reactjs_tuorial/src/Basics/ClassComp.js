@@ -26,7 +26,8 @@ class CName extends Component {
     }
     render()
     {
-       const {name}=this.props //using props
+       const {name}=this.props //destructing props
+      //  const {state1,state2}=this.state--> syntax for destructing state
        
       const style={
         color:"white",
